@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "StoreStatistics";
+}
+
+<h2>Store</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h3 id="statisticsHeader">
+                Estatisticas da Loja
+            </h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <form method="post" action="/Statistics/UpdateStats">
+                <input id="fbStoreId" type="hidden" value="@ViewBag.FbStoreId" name="fbStoreId"/>
+                <input id="accessToken" type="hidden" value="@ViewBag.AccessToken" name="accessToken" />
+                <input type="hidden" value="true" name="update"/>
+                <button type="submit" class="btn btn-info btn-xs">Atualizar</button>
+                <span>Ultima atualização feita ontem</span>
+            </form>
+            
+            <hr />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <table id="table" class="display" cellspacing="0" width="100%">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Gostos</th>
+                    <th>Comentários</th>
+                    <th>Partilhas</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Gostos</th>
+                    <th>Comentários</th>
+                    <th>Partilhas</th>
+                </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <br />
+            <p><b id="shares_count">Partilhas: </b></p>
+        </div>
+        <div class="col-sm-6">
+            <h4>Comentários</h4>
+            <p id="commentsCount">Ninguém comentou o produto selecionado.</p>
+            <ul id="comments"></ul>
+        </div>
+        <div class="col-sm-6">
+            <h4>Gostos</h4>
+            <p id="likesCount">Ninguém gostou do produto selecionado.</p>
+            <ul id="likes"></ul>
+        </div>
+    </div>
+</div>
+
+
+
+@* Load datatable js *@
+<script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+@*<script type="text/javascript" src="//cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>*@
+<script type="text/javascript" src="~/scripts/custom/store-stats.js"></script>        
+
+

@@ -1,0 +1,172 @@
+﻿{
+  {
+    "https://socialbs.azurewebsites.net/301176983549878/products/A142": {
+      "og_object": { "id": "1166603333396474" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 1
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A142"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A317": {
+      "og_object": { "id": "1037956109587666" },
+      "share": {
+        "comment_count": 2,
+        "share_count": 2
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A317"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A241": {
+      "og_object": { "id": "1128363550539948" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 0
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A241"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A150": {
+      "og_object": { "id": "1135645233162593" },
+      "share": {
+        "comment_count": 1,
+        "share_count": 3
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A150"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A151": {
+      "og_object": { "id": "1310916215592866" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 0
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A151"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A304": {
+      "og_object": { "id": "1235382016526260" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 0
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A304"
+    },
+    "https://socialbs.azurewebsites.net/301176983549878/products/A277": {
+      "og_object": { "id": "1131391863594906" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 0
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A277"
+    }
+  }
+} {
+  {
+    "1166603333396474": { "id": "1166603333396474" },
+    "1037956109587666": {
+      "likes": {
+        "data": [
+          {
+            "id": "113978202371308",
+            "name": "António Faria"
+          },
+          {
+            "id": "244917399235426",
+            "name": "João Pedro"
+          }
+        ],
+        "paging": {
+          "cursors": {
+            "before": "MTEzOTc4MjAyMzcxMzA4",
+            "after": "MjQ0OTE3Mzk5MjM1NDI2"
+          }
+        }
+      },
+      "comments": {
+        "data": [
+          {
+            "created_time": "2016-08-23T15:00:13+0000",
+            "from": {
+              "name": "António Faria",
+              "id": "113978202371308"
+            },
+            "message": "Este produto é um espetáculo!",
+            "id": "1037956109587666_1052642321452378"
+          },
+          {
+            "created_time": "2016-08-24T10:20:54+0000",
+            "from": {
+              "name": "António Faria",
+              "id": "113978202371308"
+            },
+            "message": "mais um comentário",
+            "id": "1037956109587666_1053284111388199"
+          }
+        ],
+        "paging": {
+          "cursors": {
+            "before": "MgZDZD",
+            "after": "MQZDZD"
+          }
+        }
+      },
+      "id": "1037956109587666"
+    },
+    "1128363550539948": { "id": "1128363550539948" },
+    "1135645233162593": {
+      "likes": {
+        "data": [
+          {
+            "id": "113978202371308",
+            "name": "António Faria"
+          }
+        ],
+        "paging": {
+          "cursors": {
+            "before": "MTEzOTc4MjAyMzcxMzA4",
+            "after": "MTEzOTc4MjAyMzcxMzA4"
+          }
+        }
+      },
+      "comments": {
+        "data": [
+          {
+            "created_time": "2016-08-25T14:08:55+0000",
+            "from": {
+              "name": "António Faria",
+              "id": "113978202371308"
+            },
+            "message": "bonés",
+            "id": "1135645233162593_1151637454896704"
+          }
+        ],
+        "paging": {
+          "cursors": {
+            "before": "MQZDZD",
+            "after": "MQZDZD"
+          }
+        }
+      },
+      "id": "1135645233162593"
+    },
+    "1310916215592866": { "id": "1310916215592866" },
+    "1235382016526260": { "id": "1235382016526260" },
+    "1131391863594906": { "id": "1131391863594906" }
+  }
+} {
+  {
+    "113978202371308": { "id": "113978202371308" },
+    "244917399235426": { "id": "244917399235426" }
+  }
+}
+
+
+
+
+ {
+  [ https : //socialbs.azurewebsites.net/301176983549878/products/A142,
+    {
+      "og_object": { "id": "1166603333396474" },
+      "share": {
+        "comment_count": 0,
+        "share_count": 1
+      },
+      "id": "https://socialbs.azurewebsites.net/301176983549878/products/A142"
+    }]}

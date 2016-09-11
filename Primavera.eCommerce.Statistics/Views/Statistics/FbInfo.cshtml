@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "Statistics";
+}
+
+<h2>Statistics</h2>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Estatisticas da sua loja no facebook</h3>
+    </div>
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="">Facebook Info</h3>
+            </div>
+            <div class="col-sm-12">
+                <div class="fb-login-button" onlogin="checkLoginState()" scope="public_profile,email"
+                     data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false"></div>
+                <span id="status"></span>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <form id="form" action="/Statistics/StoreStats" method="post">
+                <div class="col-sm-12 form-group">
+                    <label class="control-label">Página</label>
+                    <select class="form-control" id="page" name="fbStoreId"></select>
+                </div>
+                <input id="accessToken" type="hidden" value="" name="accessToken"/>
+                <div class="col-sm-12 form-group">
+                    <button type="submit" class="btn btn-primary">Ver Estatisticas</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@* Facebook info js  *@
+<script src="~/scripts/custom/fb-info.js"></script>
